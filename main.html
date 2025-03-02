@@ -4,53 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sathyanarayanan S R - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        .container { width: 80%; margin: auto; padding: 20px; background: white; }
-        header { text-align: center; padding: 20px; background: #333; color: white; }
-        h1, h2 { color: #333; }
-        .section { margin-bottom: 20px; }
-        .contact a { text-decoration: none; color: #007BFF; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 4rem 10%;
+            margin: 2rem 0;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 4px solid #2a5298;
+            padding-bottom: 10px;
+            font-size: 2rem;
+            color: #1e3c72;
+        }
+        p, ul li {
+            font-size: 1.2rem;
+        }
+        a {
+            color: #2a5298;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Sathyanarayanan S R</h1>
-        <p>B.Tech Artificial Intelligence and Data Science</p>
-    </header>
-    <div class="container">
-        <div class="section">
-            <h2>About Me</h2>
-            <p>AI and Data Science student passionate about Machine Learning and Cybersecurity.</p>
-        </div>
-        <div class="section">
-            <h2>Education</h2>
-            <p><strong>Karpagam Institute of Technology, Coimbatore</strong> - B.Tech AI & Data Science (2025) - 75%</p>
-        </div>
-        <div class="section">
-            <h2>Skills</h2>
-            <p>Python, MySQL, Data Analysis, AI Fundamentals, MS Excel</p>
-        </div>
-        <div class="section">
-            <h2>Projects</h2>
+        <p>Artificial Intelligence and Data Science Student</p>
+        <nav>
             <ul>
-                <li>Wireless Self-Charging Power Bank</li>
-                <li>Vehicle Routing Problem Using ML</li>
-                <li>Dimensionality Reduction Using K-Means</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-        <div class="section">
-            <h2>Internships</h2>
-            <p><strong>Data Analyst Intern</strong> - Cognify Technologies (May 2024 - June 2024)</p>
-            <p><strong>Python Intern</strong> - BlueKode Solutions (May 2023, 15 Days)</p>
-        </div>
-        <div class="section contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:sathyasr2004@gmail.com">sathyasr2004@gmail.com</a></p>
-            <p>Phone: +91 96590 21220</p>
-            <p>LinkedIn: <a href="http://www.linkedin.com/in/sathyanarayanan004" target="_blank">Profile</a></p>
-            <p>GitHub: <a href="https://github.com/Sathyasr2004" target="_blank">Sathyasr2004</a></p>
-        </div>
-    </div>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>B.Tech student at Karpagam Institute of Technology, Coimbatore. Passionate about AI, Data Science, and Problem-Solving.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Wild Watt – Wireless Self-Charging Power Bank</strong> - HackFest 2024 Project</li>
+            <li><strong>Vehicle Routing Problem Using Machine Learning</strong> - <a href="https://github.com/Sathyasr2004/Sathya-VRP-project">GitHub</a></li>
+            <li><strong>Dimensionality Reduction using k-means and Clustering</strong> - <a href="https://github.com/Sathyasr2004/Dimensionality-reduction-using-k-means-and-clustering">GitHub</a></li>
+        </ul>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <p><strong>Data Analyst Intern - Cognify (May 2024 – June 2024)</strong></p>
+        <p>Conducted data analysis and visualization, applied ML techniques.</p>
+        <p><strong>Programming Intern - BlueKode Solutions (May 2023, 15 Days)</strong></p>
+        <p>Developed foundational Python skills through hands-on projects.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Python, Data Analysis, AI Fundamentals, Oracle Cloud Infrastructure</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sathyasr2004@gmail.com">sathyasr2004@gmail.com</a></p>
+        <p>LinkedIn: <a href="http://www.linkedin.com/in/sathyanarayanan0000000000004">LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/Sathyasr2004">GitHub</a></p>
+        <p>Phone: <a href="tel:+919659021220">+91 96590 21220</a></p>
+    </section>
 </body>
 </html>
+
